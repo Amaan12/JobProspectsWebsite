@@ -1,7 +1,6 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { 
-  CANDIDATE_PROFILE, 
   CAREER_DATA,
   SECTORS
 } from './data/careerData';

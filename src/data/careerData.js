@@ -2,26 +2,6 @@
 // Strictly excludes: Government exams & Degree-locked professions (Medical doctor, Lawyer, PE Civil Engineer)
 // Covers: Agriculture, Culinary, Trading, Physical Hardware, Logistics, Creative Media, and Spatial Tech
 
-export const CANDIDATE_PROFILE = {
-  name: "Candidate Profile (Confidential)",
-  age: 23,
-  location: "Mumbai, Maharashtra, India",
-  education: "Pursuing Online B.Sc/B.Tech in Computer Science (Graduating 2028)",
-  currentStack: "Unity with C# (2 Years Experience, Mid-Level Logic, Multiplayer / PurrNet)",
-  mathFoundation: "Solid (High School + College Calculus, Linear Algebra, Statistics)",
-  hardwareSpecs: "Intel Core i7 13th Gen, NVIDIA RTX 4070 Laptop GPU, 16GB RAM + Owns VR Headset",
-  droneProficiency: "Flight Simulator Experience (Joystick & Spatial Navigation Ready)",
-  bandwidth: "10 - 20 Hours / Week Dedicated Learning",
-  targetTimeline: "12 to 24 Months (Job Ready 2026 - 2027)",
-  targetSalary: "₹6.0 – ₹12.0 LPA (₹50,000 – ₹1,00,000 / month starting)",
-  primaryConcerns: [
-    "AI automating conventional programming & boilerplate software",
-    "Family priority: Long-term career stability & proven local employment",
-    "Aversion to public speaking, teaching, and cold client sales pitches",
-    "Desire to leverage AI tools as accelerators rather than being replaced by them"
-  ]
-};
-
 export const CAREER_DATA = [
   // ================= 1. CYBERSECURITY & THREAT DEFENSE =================
   {
