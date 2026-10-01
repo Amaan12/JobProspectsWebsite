@@ -12,7 +12,6 @@ import SpotlightCard from './components/reactbits/SpotlightCard';
 import TiltedCard from './components/reactbits/TiltedCard';
 import AnimatedTabs from './components/reactbits/AnimatedTabs';
 import ModernSlider from './components/reactbits/ModernSlider';
-import SideScrollProgress from './components/reactbits/SideScrollProgress';
 
 import StrategicCharts from './components/StrategicCharts';
 import DossierModal from './components/DossierModal';
@@ -290,12 +289,6 @@ export default function App() {
         </div>
       )}
 
-      {/* 2. Floating Side Scroll Progress Tracker (ReactDevs / ReactBits) */}
-      <SideScrollProgress 
-        sections={navSections}
-        accentHex={activeTheme.hex}
-        isDark={isDark}
-      />
 
       {/* ================= TOP NAVIGATION (ANIMATED ENTRANCE & SCROLL DYNAMICS) ================= */}
       <motion.header 
